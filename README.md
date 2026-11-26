@@ -69,7 +69,7 @@ Two GAP scripts are in [`gap/`](gap/). Both use the literal definition, a sum of
 **[`gap/fcheck.g`](gap/fcheck.g)** (output in [`gap/fcheck.out`](gap/fcheck.out), about 15 s) checks:
 - $f(C_{2^n}\times C_2) = 3-2^{-n}$ for $n = 1..8$. The values of $S$ are $10, 22, 46, 94, 190, 382, 766, 1534$.
 - $C_{3^n}\times C_3$ for $n=1..5$. The values are $19/3, 61/9, 187/27, 565/81, 1699/243$, tending to $7$.
-- The closed form for $p\in\{2,3,5\}$ and $n\le 3$.
+- The closed form for $p\in\lbrace 2,3,5 \rbrace$ and $n\le 3$.
 - The Table 1 rows.
 
 **[`gap/fscan.g`](gap/fscan.g)** (output in [`gap/fscan.out`](gap/fscan.out), about 1–2 min) lists every value $f(G) < 13/4$ over all noncyclic groups of order $\le 63$:
